@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AhmedShalen</title>
+    <link
+      rel="shortcut icon"
+      href="./src/images/logo-light.png"
+      type="image/x-icon"
+    />
+    <!-- FontAwsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- The Main Css Files -->
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/mediaQ.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a href="#landing" id="arrowHome">
+      <i class="fa-solid fa-circle-up"></i>
+    </a>
+    <nav id="mainNav">
+      <div class="container">
+        <a href="./index.html">
+          <img
+            src="./src/images/logo-dark.png"
+            alt="website_logo"
+            class="logo"
+          />
+        </a>
+        <div id="menu">
+          <a class="active" onclick="resetBtns(this.id)" id="link1">الرئيسية</a>
+          <a class="" onclick="resetBtns(this.id)" id="link2">منَ نحن ؟</a>
+          <a class="" onclick="resetBtns(this.id)" id="link3">خدماتنا</a>
+          <a class="" onclick="resetBtns(this.id)" id="link4">الأعمال</a>
+        </div>
+        <a class="contact" onclick="resetBtns(this.id)" id="cntct">التواصل</a>
+
+        <!-- === mobile icon === -->
+        <div id="menuIcon">
+          <div class="up"></div>
+          <div class="middle"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+    </nav>
+    <section id="navPhone">
+      <div id="menu">
+        <a class="active" onclick="resetBtns(this.id)" id="link1Phone"
+          >الرئيسية</a
+        >
+        <a class="" onclick="resetBtns(this.id)" id="link2Phone">منَ نحن ؟</a>
+        <a class="" onclick="resetBtns(this.id)" id="link3Phone">خدماتنا</a>
+        <a class="" onclick="resetBtns(this.id)" id="link4Phone">الأعمال</a>
+      </div>
+      <div class="icons">
+        <div class="row">
+          <a href="" target="blank">
+            <i class="fa-brands fa-whatsapp-square"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fa-brands fa-github-square"></i>
+          </a>
+          <a href="" target="blank">
+            <i class="fa-brands fa-facebook-square"></i>
+          </a>
+        </div>
+        <div class="row">
+          <a> <i class="fa-brands fa-linkedin"></i> </a>
+          <a href="" target="blank">
+            <i class="fa-brands fa-behance-square"></i>
+          </a>
+          <a> <i class="fa-solid fa-square-envelope"></i> </a>
+        </div>
+      </div>
+    </section>
+    <!-- ==============  Landing  ============== -->
+    <section id="landing">
+      <div class="overlay"></div>
+      <!-- stars -->
+      <div class="stars-cover">
+        <div id="orangeStar" class="str1"></div>
+        <div id="orangeStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div id="purpleStar" class="str4"></div>
+        <i id="one" class="fa-solid fa-code"></i>
+        <i id="two" class="fa-solid fa-palette"></i>
+      </div>
+      <div class="container">
+        <div class="left">
+          <h1>وكـالة الحـلول الرقمية التعليمية!</h1>
+          <h2>خليك دايما معنا ..</h2>
+          <a href="#" class="cv"
+            >زور صفحتنا <i class="fa-solid fa-circle-left"></i>
+          </a>
+        </div>
+        <div class="right">
+          <img src="./src/images/bg-landing.png" class="me" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============  AboutUs  ============== -->
+    <section id="about">
+      <!-- stars -->
+      <div class="stars-cover">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <i id="one" class="fa-solid fa-star"></i>
+        <i id="two" class="fa-solid fa-rocket"></i>
+      </div>
+      <div class="container">
+        <div class="left">
+          <div class="top">
+            <h1>مُن نحن ؟</h1>
+            <div class="liner"></div>
+          </div>
+          <h4 class="about-owner">
+            حاصل علي " <span>Graphics Design Diploma</span> " من الجامعة
+            الأمريكية في القاهرة ،<br />
+            أفضل مصمم تحت 18 سنة عام 2022 من مجلة <span>Wardiere inc</span> ..
+            مُعتمد رسمي من <span>شركة أدوبي!</span><br />
+          </h4>
+          <p>
+            <span class="company">شعلان اسـتديو</span> هي شركة مصُرية متخصصة في
+            الحلول التعليمية الرقمية للأساتذة و معلمي الثانوية ، لدينا فريق
+            محترف و متخصص سيساعدك علي تحقيق أهدافك في أقل <span>وقت</span> و
+            اكثر <span>فعالية!</span>
+          </p>
+        </div>
+        <div class="right">
+          <img src="./src/images/logo-dark.png" alt="logo" />
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="container">
+        <div class="card">
+          <div class="top">
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+          <div class="middle"><h2>مفهوم المستقبل.</h2></div>
+          <div class="bottom">
+            <p>
+              هنا لمساعدتك في مواجهة تحديات تقنية اليوم ، لبناء قاعدة مستقبلية
+              قوية.
+            </p>
+          </div>
+        </div>
+        <div id="active" class="card">
+          <div class="top">
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+          <div class="middle"><h2>المصابيح الكهربائية.</h2></div>
+          <div class="bottom">
+            <p>سنزودك بالفضاء الخارجي للصندوق ، و نجعل أفكارنا تخدم عملك.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="top">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <div class="middle"><h2>حلول مبتكـرة.</h2></div>
+          <div class="bottom">
+            <p>
+              ستجد هنا مليون طريقة لتكون الأفضل ، و ستقدم أكثر الخدمات قيمة
+              لطلابك.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <!-- stars -->
+      <div class="stars-cover">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <i id="one" class="fa-solid fa-coins"></i>
+        <i id="two" class="fa-solid fa-viruses"></i>
+      </div>
+      <div class="container">
+        <div class="top">
+          <h1>خدماتنا</h1>
+          <div class="liner"></div>
+        </div>
+        <div class="services-container">
+          <div class="card">
+            <div class="top">
+              <i class="fa-solid fa-heart-music-camera-bolt"></i>
+            </div>
+            <div class="middle"><h2>الإنتاج الإعلامي.</h2></div>
+            <div class="bottom">
+              <p>
+                يمكننا أن نقدم لك افضل خدمة لجميع منصات التواصل الاجتماعي ، نحن
+                متخصصون في العلامات التجارية عبر وسائل التواصل الاجتماعي و
+                التسويق الرقمي.
+              </p>
+            </div>
+            <div class="footer"></div>
+          </div>
+          <div class="card">
+            <div class="top">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <div class="middle"><h2>تصميم الكتب.</h2></div>
+            <div class="bottom">
+              <p>
+                نحن نعتبر أن تصميم الكتاب هو فننا الخـاص ترتيب النصوص و المحتوي
+                و التنسيق و الأصول المرئية هي لعبتُنا المفضلة.
+              </p>
+              <div class="footer"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="top">
+              <i class="fa-solid fa-file-text"></i>
+            </div>
+            <div class="middle"><h2>كتابة المحتوي.</h2></div>
+            <div class="bottom">
+              <p>
+                سنساعدك علي تطوير لغتك العملية و الطريقة التي تقدم بها معلومات
+                حول كيفية كتابة محتوي قوي للغاية حول اي موضوع في أي موضوع.
+              </p>
+              <div class="footer"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="top">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="middle"><h2>تطوير المواقع.</h2></div>
+            <div class="bottom">
+              <p>
+                الآن ، يمكنك الحصول علي النظام الأساسي الخاص بك. أفضل المنصات
+                المذهلة ذات الجودة العالية التي يستحقها المستخدمون.
+              </p>
+              <div class="footer"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="top">
+              <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+            <div class="middle"><h2>وسائل التواصل.</h2></div>
+            <div class="bottom">
+              <p>
+                نستثمر وقتك و جهدك فـي تقديم أفضل الافكار و جودة صناعة الإنتاج
+                الإعلامي ، لدينا أدوات عالية المستوي و مبدعين محترفين لعملك.
+              </p>
+              <div class="footer"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="top">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="middle"><h2>إستراتيجية التسويق.</h2></div>
+            <div class="bottom">
+              <p>
+                سنوفر لـك أفضل إستراتيجية تسويـقية تناسـب حجم عملك ، و نعمل علي
+                تطويرها و جعلها تنافـسية بقـوة.
+              </p>
+              <div class="footer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portflio">
+      <div class="container">
+        <div class="container">
+          <div class="top">
+            <h1>الأعمال</h1>
+            <div class="liner"></div>
+          </div>
+          <div class="btns">
+            <div class="right">
+              <a id="all" class="active">الكل</a>
+              <a id="books">تصميم كتب</a>
+              <a id="graphic">جرافيك ديزاين</a>
+              <a id="ads">اعلانات</a>
+            </div>
+          </div>
+        </div>
+        <div id="allWork">
+          <div id="DesSec">
+            <div class="row" id="DesSec">
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/1.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/132910677/Social-media-project-%28-2-%29"
+                  target="blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/2.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/128381815/Social-media-project-%28-Rayhana-2-%29"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/3.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/128605481/Social-media-project-%28-Rayhana-3-%29"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/4.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/128381815/Social-media-project-%28-Rayhana-2-%29"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/5.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/128381815/Social-media-project-%28-Rayhana-2-%29"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/6.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/132910677/Social-media-project-%28-2-%29"
+                  target="blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/7.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/128605481/Social-media-project-%28-Rayhana-3-%29"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/8.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/132910677/Social-media-project-%28-2-%29"
+                  target="blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/9.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/128605481/Social-media-project-%28-Rayhana-3-%29"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/10.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Graphic design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.behance.net/gallery/132910677/Social-media-project-%28-2-%29"
+                  target="blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div id="BookSec">
+            <div class="row">
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/11.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/12.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="_blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/13.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="_blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/14.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="_blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/15.png"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="_blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/16.png"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="#">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/17.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/18.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="_blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/19.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="_blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/20.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Book design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a href="" target="_blank">
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div id="AdsSec">
+            <div class="row">
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/21.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=402822427356954&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/22.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=562186151420580&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/23.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo?fbid=633749187597609&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/24.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=573663960272799&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/25.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=620908262215035&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/26.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=731239457848581&set=a.129018574737342"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/27.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=649651136007414&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/28.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=383056256000238&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/29.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=553520128953849&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+              <div class="box">
+                <div class="shadow"></div>
+                <img
+                  src="./src/images/ShalenDesigns/30.jpg"
+                  alt="the work image"
+                  class="image"
+                />
+                <div class="category">Ads design</div>
+                <lord-icon
+                  src="https://cdn.lordicon.com/tyounuzx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#ffffff"
+                  style="width: 110px; height: 110px"
+                  class="lordIcon"
+                >
+                </lord-icon>
+                <a
+                  href="https://www.facebook.com/photo/?fbid=382530746052789&set=a.122132728759260"
+                  target="_blank"
+                >
+                  <img src="./src/images/link.png" class="link" alt="link"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn" href="./allWork/allWork.html" target="blank"
+          >مشـاهدة المزيد ؟</a
+        >
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#1c213a"
+          fill-opacity="1"
+          d="M0,32L26.7,69.3C53.3,107,107,181,160,197.3C213.3,213,267,171,320,149.3C373.3,128,427,128,480,128C533.3,128,587,128,640,117.3C693.3,107,747,85,800,112C853.3,139,907,213,960,208C1013.3,203,1067,117,1120,90.7C1173.3,64,1227,96,1280,96C1333.3,96,1387,64,1413,48L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <section id="partners">
+      <div class="container">
+        <div class="left">
+          <div class="top">
+            <h1>شـركاءنا</h1>
+            <div class="liner"></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="part">
+            <img src="./src/images/OurPartners/1.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/2.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/3.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/4.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/5.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/6.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/7.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/8.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/9.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/10.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/11.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/12.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/13.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/14.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/15.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img
+              class="a7med"
+              src="./src/images/OurPartners/16.png"
+              alt="Our_Partners"
+            />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/17.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/18.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img src="./src/images/OurPartners/19.png" alt="Our_Partners" />
+          </div>
+          <div class="part">
+            <img
+              class="a7med"
+              src="./src/images/OurPartners/20.png"
+              alt="Our_Partners"
+            />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#20253d"
+          fill-opacity="1"
+          d="M0,224L24,224C48,224,96,224,144,234.7C192,245,240,267,288,234.7C336,203,384,117,432,80C480,43,528,53,576,74.7C624,96,672,128,720,133.3C768,139,816,117,864,96C912,75,960,53,1008,85.3C1056,117,1104,203,1152,250.7C1200,299,1248,309,1296,298.7C1344,288,1392,256,1416,240L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <section id="feedbacks">
+      <!-- stars -->
+      <div class="stars-cover">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <i id="one" class="fa-solid fa-star"></i>
+        <i id="two" class="fa-sharp fa-solid fa-face-smile"></i>
+      </div>
+      <div class="container">
+        <div class="container">
+          <div class="top">
+            <h1>التقييمات!</h1>
+            <div class="liner"></div>
+          </div>
+        </div>
+        <div class="right">
+          <!-- Swiper -->
+          <div class="contSwiper">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="up">
+                    <div class="content">مبدع بسم الله ما شاءالله</div>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="down">
+                    <img src="./src/images/FeedBacks/1.png" />
+                    <h3>Hange Zoë</h3>
+                  </div>
+                </div>
+                <!-- slide 4 -->
+                <div class="swiper-slide">
+                  <div class="up">
+                    <div class="content">من احسن الناس اللي اشتغلت معهم 3></div>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="down">
+                    <img src="./src/images/FeedBacks/2.png" />
+                    <h3>Erwin Smith</h3>
+                  </div>
+                </div>
+                <!-- slide 5 -->
+                <div class="swiper-slide">
+                  <div class="up">
+                    <div style="direction: ltr" class="content">
+                      Good Job, Keep Going!
+                    </div>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="down">
+                    <img src="./src/images/FeedBacks/3.png" />
+                    <h3>Levi Ackerman</h3>
+                  </div>
+                </div>
+                <!-- slide 6 -->
+                <div class="swiper-slide">
+                  <div class="up">
+                    <div class="content">شغل عالي ، عشرة م عشرة .</div>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="down">
+                    <img src="./src/images/FeedBacks/4.png" />
+                    <h3>Mikasa Ackerman</h3>
+                  </div>
+                </div>
+                <!-- slide 7 -->
+                <div class="swiper-slide">
+                  <div class="up">
+                    <div class="content">ممتاز ، استمر .</div>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="down">
+                    <img src="./src/images/FeedBacks/5.png" />
+                    <h3>Eren Jaeger</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <!-- stars -->
+      <div class="stars-cover">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <i id="one" class="fa-solid fa-phone"></i>
+        <i id="two" class="fa-solid fa-address-card"></i>
+      </div>
+      <div class="container">
+        <div class="left">
+          <div class="top">
+            <h1>التواصل</h1>
+            <div class="liner"></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-side">
+            <h2>المـزيد عني ؟</h2>
+            <h5>
+              انا <span id="purple">أحمد شعلان</span> عمري
+              <span id="purple">19 سنة</span> ، حصلت علي دبلومة الجرافيك ديزاين
+              من <span id="orange">الجامعة الامريكية</span> في القاهرة
+              <br />
+              و حاصل علي أفضل مصمم تحت 18 سنة من مجلة
+              <span id="orange">Wardiere Inc</span> .
+              <br />
+              و مُعتمد رسمي من شركة <span id="orange">Adobe 2022</span> ، و اعمل
+              حالياً في منصة حصص مصر و شعلان ستديو و منصة نجوي و Rewod Book ..
+              اعمل في صناعة الكتب مع شركات خارج مصُر و داخلها و قمت بعمل اكثر من
+              150 كتاب تعليمي مختلف! و اعمل في المـانيا ك Company Profile Design
+              في شركة Creativity Decor و اعمل مع مدرسين من انحاء مصُر و الوطن
+              العربي ..
+            </h5>
+          </div>
+          <div class="left-side">
+            <img src="./src/images/owner.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="copyright">
+      <hr />
+      <div class="copy">
+        <h5>جـميع حقوق النشر محفـوظة لدي شعـلان آستديـو &copy;</h5>
+        <h5>تم الـتطوير بـواسطة سـوُلوم ديف لـعام 2023 &copy;</h5>
+      </div>
+    </section>
+  </body>
+  <!-- =========  SCRIPTS  ========= -->
+  <script src="./main.js"></script>
+  <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      loop: true,
+
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  <!-- aos script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
