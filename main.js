@@ -16,13 +16,13 @@ resetBtns = (id) => {
     window.scrollTo(0, 662);
   }
   if (id == "link3") {
-    window.scrollTo(0, 1273);
+    window.scrollTo(0, 1473);
   }
   if (id == "link4") {
     window.scrollTo(0, 2705);
   }
   if (id == "cntct") {
-    window.scrollTo(0, 6120);
+    window.scrollTo(0, 6620);
   }
 };
 // for phone
