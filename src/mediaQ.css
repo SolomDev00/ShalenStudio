@@ -598,3 +598,26 @@
     font-size: 12px;
   }
 }
+
+/* <!-- ==============  Contact  ============== --> */
+
+@media (max-width: 500px) {
+  #copyright {
+    text-align: center;
+  }
+  .copy {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  #copyright {
+    text-align: center;
+  }
+  .copy {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
