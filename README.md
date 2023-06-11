@@ -1,3 +1,3 @@
 # Hello, Shalen studio website!
 
-### Launch Website : solomdev00.github.io/ShalenStudio/ >3
+### Launch Website : solomdev00.github.io/ShalenStudio/ 💗 .
