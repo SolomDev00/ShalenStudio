@@ -13,10 +13,10 @@ resetBtns = (id) => {
     window.scrollTo(0, 0);
   }
   if (id == "link2") {
-    window.scrollTo(0, 662);
+    window.scrollTo(0, 762);
   }
   if (id == "link3") {
-    window.scrollTo(0, 1473);
+    window.scrollTo(0, 1273);
   }
   if (id == "link4") {
     window.scrollTo(0, 2705);
