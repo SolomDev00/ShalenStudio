@@ -1,8 +1,4 @@
 /* Start of Global */
-@font-face {
-  font-family: "Tajawal-1";
-  src: url("/Tajawal/Tajawal-Regular.ttf");
-}
 
 :root {
   --white: #ffffff;
@@ -27,11 +23,11 @@
   color: var(--white);
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Tajawal-1", sans-serif;
 }
 
 body {
   background-color: var(--gray);
+  font-family: "Tajawal", sans-serif;
 }
 
 body::-webkit-scrollbar {
