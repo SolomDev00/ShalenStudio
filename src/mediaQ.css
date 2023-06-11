@@ -602,6 +602,9 @@
 /* <!-- ==============  Contact  ============== --> */
 
 @media (max-width: 500px) {
+#contact {
+  height: 62vh;
+}
   #copyright {
     text-align: center;
   }
@@ -612,6 +615,9 @@
 }
 
 @media (max-width: 420px) {
+#contact {
+  height: 62vh;
+}
   #copyright {
     text-align: center;
   }
